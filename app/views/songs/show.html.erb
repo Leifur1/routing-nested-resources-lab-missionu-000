@@ -6,6 +6,6 @@
 <h1><%= @artist.name %></h1>
 <ul>
   <%= link_to song.title, song_path(song) %>
-    <li><%= song.title %></li>
+    <li><%= link_to song.title, song_path(song) %></li>
   <% end %>
 </ul>
