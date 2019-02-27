@@ -747,3 +747,7 @@ Processing by ArtistsController#show as HTML
   [1m[36mSong Load (0.2ms)[0m  [1mSELECT "songs".* FROM "songs" WHERE "songs"."artist_id" = ?[0m  [["artist_id", 1]]
   Rendered artists/show.html.erb within layouts/application (19.0ms)
 Completed 200 OK in 194ms (Views: 180.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 71.34.107.53 at 2019-02-27 00:06:19 +0000
+Cannot render console from 71.34.107.53! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
